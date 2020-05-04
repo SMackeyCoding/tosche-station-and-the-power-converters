@@ -11,7 +11,7 @@ namespace Contracts
     {
         void CreatePlanet(PlanetCreateModel planetToCreate);
         IEnumerable<PlanetListItem> GetPlanets();
-        PlanetDetailModel GetPlanetDetailById();
+        PlanetDetailModel GetPlanetDetailById(int planetId);
         void UpdatePlanet(PlanetUpdateModel planetToUpdate);
         void DeletePlanet(PlanetDeleteModel planetToDelete);
     }

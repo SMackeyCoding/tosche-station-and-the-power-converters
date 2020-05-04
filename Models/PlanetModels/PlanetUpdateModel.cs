@@ -12,9 +12,9 @@ namespace Models.PlanetModels
         public string UpdatedPlanetName { get; set; }
         public string UpdatedPlanetDescription { get; set; }
         public string UpdatedPlanetClimate { get; set; }
-        public string UpdatedHoursPerDay { get; set; }
-        public string UpdatedDaysPerYear { get; set; }
-        public string UpdatedNumberOfSuns { get; set; }
-        public string UpdatedNumberOfMoons { get; set; }
+        public int? UpdatedHoursPerDay { get; set; }
+        public int? UpdatedDaysPerYear { get; set; }
+        public int? UpdatedNumberOfSuns { get; set; }
+        public int? UpdatedNumberOfMoons { get; set; }
     }
 }

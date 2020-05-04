@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,11 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PlanetModels\PlanetCreateModel.cs" />
+    <Compile Include="PlanetModels\PlanetDeleteModel.cs" />
+    <Compile Include="PlanetModels\PlanetDetailModel.cs" />
+    <Compile Include="PlanetModels\PlanetListItem.cs" />
+    <Compile Include="PlanetModels\PlanetUpdateModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CharacterModels\" />
-    <Folder Include="PlanetModels\" />
     <Folder Include="ShipModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
