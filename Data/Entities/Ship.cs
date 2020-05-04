@@ -12,7 +12,7 @@ namespace Data.Entities
 
         public string ShipName { get; set; }
 
-        public int Model { get; set; }
+        public string Model { get; set; }
 
         public string Manufacturer { get; set; }
 
