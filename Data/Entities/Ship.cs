@@ -8,5 +8,18 @@ namespace Data.Entities
 {
     class Ship
     {
+        public int ShipID { get; set; }
+
+        public string ShipName { get; set; }
+
+        public int Model { get; set; }
+
+        public string Manufacturer { get; set; }
+
+        public int Length { get; set; }
+
+        public int MaxSpeed { get; set; }
+
+        public ApplicationUser Author { get; set; }
     }
 }
