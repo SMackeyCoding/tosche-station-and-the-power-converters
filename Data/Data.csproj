@@ -66,6 +66,10 @@
     <Compile Include="Migrations\202005042254376_added data annotations to planet.Designer.cs">
       <DependentUpon>202005042254376_added data annotations to planet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005042300057_updated database name - added planets db set.cs" />
+    <Compile Include="Migrations\202005042300057_updated database name - added planets db set.Designer.cs">
+      <DependentUpon>202005042300057_updated database name - added planets db set.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005042254376_added data annotations to planet.resx">
       <DependentUpon>202005042254376_added data annotations to planet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005042300057_updated database name - added planets db set.resx">
+      <DependentUpon>202005042300057_updated database name - added planets db set.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
