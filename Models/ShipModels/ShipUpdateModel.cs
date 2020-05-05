@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Entities
+namespace Models.ShipModels
 {
-    class Ship
+    public class ShipUpdateModel
     {
-        [Key]
         public int ShipId { get; set; }
-        [Required]
         public string ShipName { get; set; }
         public string Model { get; set; }
         public string Manufacturer { get; set; }
