@@ -8,6 +8,6 @@ namespace Models.ShipModels
 {
 	public class ShipDeleteModel
 	{
-		public int ShipID { get; set; }
+		public int ShipId { get; set; }
 	}
 }

@@ -9,7 +9,7 @@ namespace Data.Entities
     class Ship
     {
         [Key]
-        public int ShipID { get; set; }
+        public int ShipId { get; set; }
         [Required]
         public string ShipName { get; set; }
         public string Model { get; set; }

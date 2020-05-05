@@ -8,7 +8,7 @@ namespace Models.ShipModels
 {
     public class ShipUpdateModel
     {
-        public int ShipID { get; set; }
+        public int ShipId { get; set; }
         public string ShipName { get; set; }
         public string Model { get; set; }
         public string Manufacturer { get; set; }
