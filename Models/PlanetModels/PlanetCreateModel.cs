@@ -5,12 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Entities
+namespace Models.PlanetModels
 {
-    public class Planet
+    public class PlanetCreateModel
     {
-        [Key]
-        public int PlanetId { get; set; }
         [Required]
         public string PlanetName { get; set; }
         public string PlanetDescription { get; set; }
