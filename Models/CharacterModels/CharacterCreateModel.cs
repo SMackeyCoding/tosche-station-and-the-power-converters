@@ -6,21 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Entities
+namespace Models.CharacterModels
 {
-    class Character
+    class CharacterCreateModel
     {
-        [Key]
-        public int CharacterId { get; set; }
         [Required]
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
         public string Affiliation { get; set; }
         public string WeaponOfChoice { get; set; }
-        [ForeignKey ("Planet")]
+        [ForeignKey("Planet")]
         public int PlanetId { get; set; }
-        [ForeignKey ("Ship")]
+        [ForeignKey("Ship")]
         public int ShipId { get; set; }
     }
 }
