@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models.ShipModels
 {
-	public class ShipDeleteModels
+	public class ShipDeleteModel
 	{
 		public int ShipID { get; set; }
 	}
