@@ -1,5 +1,7 @@
-﻿using System.Security.Claims;
+﻿using System.Data.Entity;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Data.Entities;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -28,5 +30,6 @@ namespace Data
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Planet> Planets { get; set; }
     }
 }
